@@ -6,7 +6,9 @@ const { color } = require('./lib/myfunc')
 //owner
 global.owner = '50947440869'
 global.nomerowner = ["50947440869"]
-SESSION_ID: (process.env.SESSION_ID ||
+global.SESSION_ID =
+  process.env.SESSION_ID ||
+  ""
 // Apikey 
 
 global.skizo = 'David Cyril'
